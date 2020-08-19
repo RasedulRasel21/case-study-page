@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+body, html {
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+}
+
+body a, html a {
+  text-decoration: none;
+}
+
+/*new design*/
+
+
+header {
+  padding: 2em;
+}
+
+header .logo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header .contact {
+  color: black;
+  font-weight: bold;
+  float: right;
+}
+
+.slider{
+  color: #fff;
+  background-color: #000;
+  height: 650px;
+}
+
+.slider h1 {
+  font-size: 50px;
+  margin: 0em auto;
+  width: 65%;
+  text-transform: uppercase;
+  margin-left:5%;
+  padding: 100px;
+}
+
+.carousel{
+  justify-content: space-between;
+  margin-top: -70px;
+}
+ /* cell number */
+    .carousel-cell:before {
+      display: block;
+    }
+
+.carousel-img1 img{
+   flex: 1;
+   height:230px;
+   width: auto;
+   margin-left: 60px;
+}
+
+.carousel-img2 img{
+  flex: 1;
+  height:350px;
+  width: auto;
+  margin-top: -45px;
+  margin-left: 60px;
+}
+
+.carousel-img3 img{
+  flex: 1;
+  height:230px;
+  width: auto;
+  margin-left: 60px;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.paragraph-left{
+  flex: 1;
+}
+
+.paragraph-left h1{
+  
+}
+
+.paragraph-right{
+  flex: 2;
+}
+
+.paragraph-right p{
+  padding: 1.5% 0 0 5%;
+}
+
+
+.img-beside-text{
+  display: flex;
+  padding: 100px;
+}
+
+.img-beside-text-img1 img{
+   flex: 1; 
+   height: 600px;
+   width: auto;
+
+}
+.img-beside-text-img2 img{
+   flex: 1; 
+   height: 600px;
+   width: auto;
+   margin-top: 20%;
+   margin-left: -50%;
+
+}
+
+.img-beside-text-text{
+   margin-left: -12%;
+   flex: 1;
+   margin-top: 15%;
+}
+
+.img-beside-text-text h1{
+   margin-left: -12%;
+}
+
+.why-motif{
+  display: flex;
+  padding: 100px;
+}
+
+.why-motif-ans{
+  flex: 2;
+}
+
+.why-motif-proof1{
+  flex: 1;
+  padding-left: 6%;
+  padding-top: 1.5%;
+}
+.why-motif-proof2{
+  flex: 1;
+  padding-top: 1.5%;
+}
+
+.speech{
+  display: flex;
+  padding: 100px;
+  background-color: #000;
+
+}
+.speech-icon{
+  flex: 1;
+}
+.speech-qoute{
+  flex: 8;
+  color:#fff;
+}
+.speech-arrow{
+  flex: 2;
+}
+.speech-arrow img{
+  height: 30px;
+  width: auto;
+  padding: 20px 20px 20px 40px;
+
+}
+
+.client-list{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+
+.client-list-text p{
+  padding: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.client-list-icon img{
+    height: 150px;
+}
+
+.ready-to-grow{
+  padding: 100px;
+  background-color: #f2f6f9;
+}
+.ready-to-grow p{
+  width: 40%;
+}
+
+
+.lets-talk-btn{
+      text-decoration: none;
+
+}
+
+.lets-talk-btn a{
+  text-decoration: none;
+}
+
+.button--primary {
+    background-color: #222;
+    color: #fff;
+    padding: 16px 35.83516px;
+}
+
+.button:hover, button:hover {
+    background-color: #2f2f2f;
+}
+
+.button{
+    cursor: pointer;
+    display: flex;
+    font-family: sans-serif;
+    font-size: .8125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    padding: 13.61702px 30.49801px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+
+
+.carousel-cell {
+  width: 50%; /* half-width */
+  height: 160px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:600px) {
+  .slider h1 {
+  font-size: 24px;
+  margin: 0em auto;
+  width: 65%;
+  text-transform: uppercase;
+  margin-left:5%;
+  padding: 55px;
+}
+  }
