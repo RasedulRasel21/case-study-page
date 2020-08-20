@@ -1,96 +1,84 @@
 .motif-case-study{
-  max-width: 100%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+max-width: 100%;
+left: 0;
+right: 0;
+margin: 0 auto;
 }
-
 .motif-case-study-section-services{
-  display: flex;
-      padding: 5% 10% 10% 10%;
-
+display: flex;
+padding: 5% 10% 10% 10%;
 }
 .motif-case-study-section-services h1{
-  color: #8c8c8c;
-
+color: #8c8c8c;
 }
 .motif-case-study-section-services p, ul{
-  font-family: AktivGrotesk-Regular,sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 50px;
+font-family: AktivGrotesk-Regular,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px;
 }
 .motif-case-study-section-services-left{
-  flex: 1;
+flex: 1;
 }
 .motif-case-study-section-services-mid{
-  flex: 1;
+flex: 1;
 }
 .motif-case-study-section-services-mid li{
-      text-decoration: none !important;
-    display: inherit;
-    margin-left: -40px;
+text-decoration: none !important;
+display: inherit;
+margin-left: -40px;
 }
 .motif-case-study-section-services-right{
-  flex: 2;
+flex: 2;
 }
-
 .motif-case-study-section-services-right p{
-  max-width: 500px;
-  line-height: 40px;
+max-width: 500px;
+line-height: 40px;
 }
 .motif-case-study-section-image{
-  background-color: #f2f6f9;
-  text-align: center;
+background-color: #f2f6f9;
+text-align: center;
 }
-
 .motif-case-study-section-image img{
-  padding: 5% 0 5% 0;
+padding: 5% 0 5% 0;
 }
-
 .motif-case-study-section-mobile-image{
-        padding: 5% 25% 5% 25%;
-    display: flex;
+padding: 5% 25% 5% 25%;
+display: flex;
 }
 .motif-case-study-section-mobile-image-one{
-  width: 496px;
+width: 496px;
 }
 .motif-case-study-section-mobile-image-one img{
-  width: 100%;
+width: 100%;
 }
 .motif-case-study-section-mobile-image-two{
-  width: 496px;
+width: 496px;
 }
 .motif-case-study-section-mobile-image-two img{
-  width: 100%;
-      margin-top: 160px;
-
+width: 100%;
+margin-top: 160px;
 }
-
 .motif-case-study-section-bottom-image{
-  background-color: #f2f6f9;
-  text-align: center;
+background-color: #f2f6f9;
+text-align: center;
 }
-
 .motif-case-study-section-bottom-image img{
-  padding: 5% 0 5% 0;
+padding: 5% 0 5% 0;
 }
-
 @media screen and (max-width:700px) {
-
-  .motif-case-study-section-services{
-  flex-direction: column;
-
+.motif-case-study-section-services{
+flex-direction: column;
 }
 .motif-case-study-section-image img{
-  width: 100%;
+width: 100%;
 }
 .motif-case-study-section-mobile-image {
-    
-    flex-direction: column;
+padding: 5% 5% 5% 5%;
+display: flex;
 }
 .motif-case-study-section-bottom-image img{
- width: 100%;
+width: 100%;
 }
 }
