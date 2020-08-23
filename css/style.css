@@ -4,6 +4,20 @@ left: 0;
 right: 0;
 margin: 0 auto;
 }
+.motif-case-study-section-top-img img{
+  position: relative;
+}
+.motif-case-study-section-top-text{
+      margin-top: -14%;
+    position: absolute;
+    color: #fff;
+    margin-left: 90px;
+}
+
+.motif-case-study-section-top-text h1{
+      letter-spacing: 14px;
+    font-weight: 900;
+}
 .motif-case-study-section-services{
 display: flex;
 padding: 5% 10% 10% 10%;
@@ -80,5 +94,22 @@ display: flex;
 }
 .motif-case-study-section-bottom-image img{
 width: 100%;
+}
+.motif-case-study-section-services {
+    padding: 5% 5% 10% 5%;
+}
+.motif-case-study-section-top-img img {
+    width: 100%;
+}
+.motif-case-study-section-top-text {
+    margin-top: -25%;
+    margin-left: 30px;
+}
+.motif-case-study-section-top-text p{
+  max-width: 520px;
+}
+.motif-case-study-section-top-text h1 {
+    letter-spacing: 0px;
+    font-weight: 900;
 }
 }
